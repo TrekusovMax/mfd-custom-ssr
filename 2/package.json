@@ -15,8 +15,7 @@
   "dependencies": {
     "esbuild": "^0.18.10",
     "express": "^4.18.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^0.0.0-experimental-a1c62b8a7-20230627",
+    "react-dom": "^0.0.0-experimental-a1c62b8a7-20230627"
   }
 }
-
