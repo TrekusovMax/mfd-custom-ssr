@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app'
 import { trpc } from '@/shared/api'
 
-import '../app/globals.css'
+import '@/app/globals.css'
 
 function App({ Component, pageProps }: AppProps) {
   return (
