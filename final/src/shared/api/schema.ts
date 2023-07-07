@@ -5,3 +5,9 @@ export const CreateEventSchema = z.object({
   description: z.string().optional(),
   date: z.coerce.date(),
 })
+
+export type CreateEventSchema = z.infer<typeof CreateEventSchema>
+
+export const JoinEventSchema = z.object({
+  id: z.number().int().positive(),
+})

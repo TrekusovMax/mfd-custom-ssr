@@ -15,7 +15,6 @@ export const CreateEventForm = ({ onSubmit }: CreateEventFormProps) => {
     formState: { errors },
   } = useForm<CreateEventValues>({
     resolver: zodResolver(CreateEventSchema),
-    mode: 'onChange',
   })
 
   return (
